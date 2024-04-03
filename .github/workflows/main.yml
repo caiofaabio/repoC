@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: TEST MAIN
-        run: node helloWorld.js
+        run: node test.js
