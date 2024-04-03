@@ -1,4 +1,4 @@
-name: TEST MAIN
+name: RepoC Action
 
 on:
   push:
@@ -12,5 +12,5 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
 
-      - name: TEST MAIN
+      - name: RepoC Action
         run: node test.js
