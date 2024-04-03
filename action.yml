@@ -1,0 +1,9 @@
+name: 'RepoC Action'
+description: 'Executa o script test.js'
+inputs:
+  test_script:
+    description: 'execute test.js'
+    required: true
+runs:
+  using: 'node12'
+  main: 'test.js'

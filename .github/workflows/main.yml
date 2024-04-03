@@ -1,0 +1,16 @@
+name: TEST MAIN
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: TEST MAIN
+        run: node helloWorld.js
